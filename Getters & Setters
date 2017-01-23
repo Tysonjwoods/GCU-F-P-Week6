@@ -1,0 +1,55 @@
+Players(){
+
+    public int getRank() {
+        return rank;
+    }
+    public void setRank(int rank) {
+         this.rank = rank;
+    }
+    public String getFirstName() {
+         return firstName;
+    }
+    public String setFirstName(String fName) {
+         firstName = fName;
+        return null;
+    }
+     public String getLastName() {
+        return lastName;
+    }
+    public String setLastName(String lName) {
+        lastName = lName;
+    }
+    public char getPosition() {
+        return position;
+    }
+    public String setPosition(char Pos) {
+         position = Pos;
+        return null;
+    }
+    public String getCollege() {
+        return college;
+    }
+    public String setCollege(String coll) {
+         college = coll;
+        return null;
+    }
+    public char getGradeClass() {
+        return gradeClass;
+    }
+    public String setGradeClass(char gradeCl) {
+         gradeClass = gradeCl;
+        return null;
+    }
+    public double getHeight() {
+        return height;
+    }
+    public String setHeight(double hei) {
+         height = hei;
+        return null;
+    }
+    public double getWeight() {
+        return weight;
+    }
+    public double setWeight(double lbs) {
+         weight = lbs; 
+    }
